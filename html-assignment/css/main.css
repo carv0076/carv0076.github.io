@@ -1,9 +1,14 @@
+
+
 body {
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
 }
 
-h1, h2 {
-    font-size: 2rem;
-    font-weight: bold;
+header, footer {
+    background-color:#CFDA5A;
+    color: #1C1C1C;
 }
+
