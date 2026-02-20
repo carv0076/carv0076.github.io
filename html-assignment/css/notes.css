@@ -5,3 +5,20 @@ body {
     background-color: black;
 }
 
+nav a {
+    font-size: 1.5rem;
+}
+
+nav a:link {
+    text-decoration: none;
+    background-color:#CFDA5A ;
+    border: 2px solid white;
+}
+
+nav a:visited {
+    color: black;
+}
+
+nav a:hover {
+    background-color: #285A71;
+}
