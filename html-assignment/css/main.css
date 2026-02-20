@@ -1,12 +1,14 @@
 
 nav a {
     font-size: 1.5rem;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
 }
 
 nav a:link {
     text-decoration: none;
     background-color:#CFDA5A ;
-    border: 2px solid white;
 }
 
 nav a:visited {
