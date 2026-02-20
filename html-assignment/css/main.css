@@ -15,3 +15,7 @@ header, footer {
 .site-title {
     color: 1C1C1C;
 }
+
+#my-image {
+    box-shadow: 0px 0px 2px 1px white;
+}
