@@ -1,0 +1,21 @@
+nav {
+    position: relative;
+    z-index: 1;
+}
+
+nav ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    text-align:  center;
+    text-transform: uppercase;
+    border-right: 1px solid black;
+    width: 33%;
+}
+
+nav li:last-child {
+    border-right: none;
+}
