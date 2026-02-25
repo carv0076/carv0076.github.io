@@ -46,7 +46,7 @@ nav li {
     display: inline-block;
     text-align:  center;
     text-transform: uppercase;
-    border-right: 1px solid black;
+    border-right: 1px solid white;
     width: 33%;
 }
 
