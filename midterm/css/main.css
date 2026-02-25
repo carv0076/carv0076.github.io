@@ -6,11 +6,19 @@ p, h1, h2, h3, h4, a {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h1{
+.wrapper {
+    width:1000px;
+    background-color: #1c1c1c;
+    margin: auto;
+}
+
+header h1{
   position: absolute;
   top: 30%;
   background-color: rgba(255,255,255,0.5);
-  width: 100%;
+  color: black;
+  font-weight: bold;
+  width: 1000px;
   text-align: center;  
 }
 .container{
@@ -21,6 +29,7 @@ h1{
 }
 img{
   width: 100%;
+  height: auto;
 }
 
 nav {
