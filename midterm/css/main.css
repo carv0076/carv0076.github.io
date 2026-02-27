@@ -91,3 +91,9 @@ article figure img {
     display: block;
     clear: both;
 }
+
+form div {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px;
+}
