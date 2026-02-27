@@ -25,6 +25,7 @@
 
     <article>
         <h2>About Us</h2>
+        <!-- This will be the container that holds the floated image and the image caption -->
         <figure>
             <img src="images/hulk.jpg" alt="Image of Hulk Paraiba">
             <figcaption class="img-credit">Shot by Pedro Souza (All rights reserved to Atletico Mineiro)</figcaption>
@@ -34,16 +35,36 @@
             <p>Clube Atlético Mineiro is one of Brazil's most historic and popular football clubs, based in Belo Horizonte, Minas Gerais. Founded in 1908, it is known for its passionate fanbase, nicknamed the “Galo” (Rooster), and for its black-and-white striped kits. Atlético Mineiro has a rich history in Brazilian football, winning multiple national championships, state titles, and international competitions, including the Copa Libertadores. The club is celebrated for its attacking style of play and has produced many talented players who have shined both domestically and internationally. Beyond football, Atlético Mineiro holds a strong cultural presence in Minas Gerais, symbolizing pride and passion for the sport.</p>
             <p>We have been home to some of Brazil's most iconic footballers. The club's greatest legend is Reinaldo, widely regarded as one of the most talented strikers in Brazilian history and a symbol of the team in the 1970s. Another historic figure is Ronaldinho, who played a key role in Atlético's 2013 Copa Libertadores triumph, bringing global attention back to the club. That same golden era featured stars like Diego Tardelli, a prolific forward, and Victor, whose crucial saves were vital to their continental success. Together, these players helped cement Atlético Mineiro's reputation as one of Brazil's most passionate and successful clubs.</p>
         </section>
-    </article>
+    </article>     
+    <div>
+        <h2>Facts:</h2>
+         <ul>
+            <li>Founded in 1908 in Belo Horizonte.</li>
+            <li>Rivalry with Cruzeiro Esporte Clube, known as the Clássico Mineiro.</li>
+            <li>Has won the MOST Campeonato Mineiro (Minas Gerais State Championship) titles</li>
+        </ul>
+    </div>
 
-        <div>
-            <h2>Facts:</h2>
-            <ul>
-                <li>Founded in 1908 in Belo Horizonte.</li>
-                <li>Rivalry with Cruzeiro Esporte Clube, known as the Clássico Mineiro.</li>
-                <li>Has won the MOST Campeonato Mineiro (Minas Gerais State Championship) titles</li>
-            </ul>
-        </div>
+    <div>
+        <form action="form.html" method="get">
+            <h2>Contact to learn more:</h2>
+            
+             <div>
+                <label for="fullname">Your Name</label>
+                <input id="fullname" type="text" name="fullname" required>
+            </div>
+            <div>
+                <label for="email">Your Email</label>
+                <input id="email" type="text" name="email" required>
+            </div>
+            <div>
+                <label for="msg">Your Message</label>
+                <input id="msg" type="text" name="message" required>
+            </div>
+
+        </form>
+    </div>
+
     </div>
 </body>
 </html>
