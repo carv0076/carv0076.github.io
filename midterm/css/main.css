@@ -67,7 +67,7 @@ article img {
     width: 350px;
     height: 350px;
     float: left;
-    margin: 10px ;
+    margin: 15px ;
 }
 
 .clearfix::after {
