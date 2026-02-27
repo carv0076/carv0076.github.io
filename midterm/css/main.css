@@ -66,16 +66,24 @@ nav li:last-child {
     border-right: none;
 }
 
-.container {
-    width: 1000px;
-    margin: 0;
+article figure {
+    width: 350px;
+    float: left;
+    margin: 0px 20px 15px 15px;
 }
 
-article img {
-    width: 350px;
-    height: 350px;
-    float: left;
-    margin: 15px ;
+article figure img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.img-credit {
+    font-size: 12px;
+    text-align: left;
+    margin-top: 3px;
+    color: white;
+    font-style: italic;
 }
 
 .clearfix::after {
