@@ -24,6 +24,7 @@ p {
     margin: 15px;
 }
 
+/* Pulled out of normal flow with absolute positioning so it floats over the hero image, with a semi-transparent white background to keep text readable over any image  */
 header h1{
   position: absolute;
   top: 30%;
@@ -33,6 +34,8 @@ header h1{
   width: 1000px;
   text-align: center;  
 }
+
+ /* Acts as the anchor for the absolute h1 — without position: relative here, the h1 would position itself relative to the whole page instead */
 .container{
   position: relative;
   max-width: 500px;
@@ -54,6 +57,7 @@ nav ul {
     list-style-type: none;
 }
 
+/* inline-block lines the items up horizontally while width: 33% splits them into three equal columns with white borders as dividers */
 nav li {
     display: inline-block;
     text-align:  center;
@@ -66,6 +70,7 @@ nav li:last-child {
     border-right: none;
 }
 
+/* "float: left" pins the image to the left edge so the article text wraps naturally around its right side */
 article figure {
     width: 350px;
     float: left;
@@ -86,6 +91,7 @@ article figure img {
     font-style: italic;
 }
 
+/* Inserts an invisible block after the container that clears all floats, forcing the parent to stretch tall enough to contain its floated children */
 .clearfix::after {
     content: '';
     display: block;
