@@ -92,6 +92,11 @@ article figure img {
     clear: both;
 }
 
+#contact-form {
+    border: 1px, solid, white;
+    margin: 15px;
+}
+
 form div {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
