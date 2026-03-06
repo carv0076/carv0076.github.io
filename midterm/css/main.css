@@ -113,6 +113,15 @@ form div {
     margin: 15px;
 }
 
+.short-input {
+    width: 100%;
+}
+
+.long-input {
+    width: 100%;
+    height: 80px;
+}
+
 footer {
     text-align: right;
 }
