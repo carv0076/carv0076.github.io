@@ -16,6 +16,7 @@
             </div>
         </header>
     <nav>
+        <!-- Nav that will jump to the part of the page that is correspondant with the link (using IDs)-->
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#story">Story</a></li>
@@ -28,8 +29,10 @@
         <!-- This will be the container that holds the floated image and the image caption -->
         <figure>
             <img src="images/hulk.jpg" alt="Image of Hulk Paraiba">
+            <!-- figcaption is the way to add text thats connected directly under an image (captions,credits, or addtional info) -->
             <figcaption class="img-credit">Shot by Pedro Souza (All rights reserved to Atletico Mineiro)</figcaption>
         </figure>
+        <!-- clearflix will ensure that the image that was floated will be put back down and not interfere with anythign added after-->
         <section class="clearfix">
             <p>Clube Atlético Mineiro was founded on March 25, 1908, in Belo Horizonte by a group of young students who wanted to create a football club open to people from all social backgrounds. Originally called “Athlético Mineiro Football Club,” the team was formed during a period when football was still growing in Brazil. Unlike some clubs at the time that were linked to elite groups, Atlético quickly became known as a club of the people. In its early years, the team gained local recognition by winning state championships in Minas Gerais, laying the foundation for what would become one of Brazil's most historic and passionately supported football clubs.</p>
             <p>Clube Atlético Mineiro is one of Brazil's most historic and popular football clubs, based in Belo Horizonte, Minas Gerais. Founded in 1908, it is known for its passionate fanbase, nicknamed the “Galo” (Rooster), and for its black-and-white striped kits. Atlético Mineiro has a rich history in Brazilian football, winning multiple national championships, state titles, and international competitions, including the Copa Libertadores. The club is celebrated for its attacking style of play and has produced many talented players who have shined both domestically and internationally. Beyond football, Atlético Mineiro holds a strong cultural presence in Minas Gerais, symbolizing pride and passion for the sport.</p>
@@ -48,7 +51,7 @@
     <div id="contact-form">
         <form action="form.html" method="get">
             <h2>Contact to learn more:</h2>
-            
+            <!-- Each text form input is giving a specific ID to facilitate the CSS changes to be made according to what information needs to be inputed-->
              <div>
                 <label for="fullname">Your Name</label>
                 <input id="fullname" type="text" name="fullname" class="short-input" required>
@@ -63,12 +66,12 @@
             </div>
             <div>
                 <h3>Would you like to watch Atletico Mineiro?</h3>
-                <label for="yes">Yes</label>
-                <input type="radio" name="yesornoormaybe" id="yes" value="yes">
-                <label for="no">No</label>
-                <input type="radio" name="yesornoormaybe" id="no" value="no">
-                <label for="maybe">Maybe</label>
-                <input type="radio" name="yesornoormaybe" id="maybe" value="maybe">
+                    <label for="yes">Yes</label>
+                    <input type="radio" name="yesornoormaybe" id="yes" value="yes">
+                    <label for="no">No</label>
+                    <input type="radio" name="yesornoormaybe" id="no" value="no">
+                    <label for="maybe">Maybe</label>
+                    <input type="radio" name="yesornoormaybe" id="maybe" value="maybe">
             </div>
             <div>
                 <button type="Submit">Submit</button>
