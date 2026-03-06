@@ -70,6 +70,10 @@ nav li:last-child {
     border-right: none;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* "float: left" pins the image to the left edge so the article text wraps naturally around its right side */
 article figure {
     width: 350px;
