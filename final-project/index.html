@@ -91,13 +91,19 @@
 
         <div id="contact">
             <h1>Contact Us</h1>
-
-            <div>
-                <form action="thanks.html" method="get">
-                    <label for="fullname">Name</label>
-                    <input id="fullname" type="text" name="fullname">
-                </form>
-            </div>
+            <form action="thanks.html" method="get">
+                <div>
+                    <label for="fullname">Full Name</label>
+                    <input id="fullname" type="text" name="fullname" required>
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input id="email" type="text" name="email" required>
+                </div>
+                <div>
+                    <button type="Submit">Submit</button>
+                </div>
+            </form>
         </div>
 
     </div>
