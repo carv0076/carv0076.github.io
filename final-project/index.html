@@ -11,6 +11,7 @@
     <div class="wrapper">
         <nav>
             <img src="images/logo.png" alt="Star Media Logo">
+             <!-- The <ul> creates an unordered list, each <li> is one nav link item. It uses IDs to jump to sections of the code that correspond with said ID -->
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about-us">About Us</a></li>
@@ -20,6 +21,7 @@
             </ul>
         </nav>
 
+        <!-- This form is supposed to represent a search bar since we cannot code in javascript yet -->
         <div>
             <form action="" method="get">
                 <div>
@@ -53,7 +55,7 @@
 
         <div id="services">
             <h1>Our Services</h1>
-
+            <!-- Each service is wrapped in its own <div> so they can be styled individually or laid out in a grid with CSS -->
             <div>
                 <img src="images/digital.jpg" alt="">
                 <h2>Digital Transformation</h2>
@@ -94,11 +96,13 @@
             <img src="images/vision.jpg" alt="paper boast photo">
             <h1>Our Vision</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates non et rerum qui odio, magnam sint exercitationem temporibus praesentium provident natus nesciunt in! Error, nam? Consequuntur a reprehenderit cupiditate veniam!</p>
+            <!-- There is no other page to give further information, that is why there is nothing in the href -->
             <a href="">Learn More</a>
         </div>
 
         <div id="team">
             <h1>Our Team</h1>
+            <!-- Each team member is in their own <div> so CSS can style or position them separately -->
             <div>
                 <img src="images/john.jpg" alt="picture of John Doe">
                 <h2>John Doe</h2>
@@ -129,6 +133,7 @@
                 </div>
                 <div>
                     <label for="message">Message</label>
+                    <!-- <textarea> is used instead of <input> for multi-line text -->
                     <textarea id="message"></textarea>
                 </div>
                 <div>
@@ -145,12 +150,12 @@
                         <th>Hours</th>
                     </tr>
                     <tr>
-                        <th>Monday-Friday</th>
-                        <th>9 AM - 6 PM</th>
+                        <td>Monday-Friday</td>
+                        <td>9 AM - 6 PM</td>
                     </tr>
                     <tr>
-                        <th>Saturday - Sunday</th>
-                        <th>Closed</th>
+                        <td>Saturday - Sunday</td>
+                        <td>Closed</td>
                     </tr>
                 </table>
             </div>
@@ -158,6 +163,7 @@
 
         <div>
             <h1>Location</h1>
+             <!-- This is an embedded Google Map. The long src URL is copied directly from Google Maps -->
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d89789.52226484688!2d-76.01696043607433!3d45.30998969122156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1775089285693!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
 
