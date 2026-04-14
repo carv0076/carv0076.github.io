@@ -59,6 +59,13 @@ nav {
     background-color: #222222;
 }
 
+nav ul {
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   align-content: space-between;
+}
+
 nav ul li:first-child a {
     color: #222222;
 }
