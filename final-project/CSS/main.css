@@ -89,11 +89,9 @@ nav {
 }
 
 .color-box a {
-    /* This automatically sits in the second row (the auto space) */
     font-size: 20px;
     color: #222222;
     text-decoration: none;
-    padding-top: 10px; /* A little breathing room from the logo */
 }
 
 nav ul {
