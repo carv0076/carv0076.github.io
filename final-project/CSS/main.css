@@ -32,7 +32,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
     font-family: 'Open Sans', sans-serif;
-    overflow-x:hidden;
+    overflow-x:hidden; /* stops horizontal scroll bars from appearing */
 }
 ol, ul {
 	list-style: none;
@@ -51,7 +51,7 @@ table {
 }
 
 * {
-    box-sizing: border-box;
+    box-sizing: border-box; /* border won't push elements outside their set width */
 }
 
 a {
@@ -81,7 +81,7 @@ nav {
     height: 250px;
     border: 15px solid #222222 ;
     display: grid;
-    grid-template-rows: 1fr auto; 
+    grid-template-rows: 1fr auto; /* logo gets all the leftover space, link sits at the bottom  */
     justify-items: center; 
 }
 
@@ -119,7 +119,7 @@ nav form input{
 }
 
 header div{
-    position: absolute;
+   position: absolute;  /* allows it to sit on top of the banner img */
     top: 10%;
     width: 100%;
     background-color: rgba(0,0,0,0.5);
@@ -142,20 +142,20 @@ header div p {
 header div a {
     background-color: #c78c06;
     font-size: 1.5rem;
-    display: inline-block;
+    display: inline-block; /* lets padding apply properly on an anchor tag  */
     padding: 30px 50px;
     color: #222222;
 }
 
 #home {
-    position: relative;
+    position: relative; /* needed so the header is positioned relative to this */
     max-width: 100%;
     margin: 0 auto;
 }
 
 #home img {
     width: 100%;
-    display: block;
+    display: block; /* removes small gap under images  */
 }
 
 #about-us {
@@ -202,7 +202,7 @@ header div a {
 }
 
 #vision {
-    position: relative;
+    position: relative; /* so the .baner-text can be positioned inside it */
     width: 100%;
 }
 
@@ -265,7 +265,7 @@ hr {
 
 #contact textarea, #contact input {
     width: 100%;
-    resize: none;
+    resize: none; /* so users can't resize the textarea */
     margin-bottom: 20px;
 }
 
