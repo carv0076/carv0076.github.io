@@ -87,6 +87,12 @@ nav ul li a{
     color: #c78b07;
 }
 
+nav form input{
+    width: 95%;
+    margin: 20px;
+    height: 2rem;
+}
+
 header h1 {
     font-size: 4rem;
     font-weight: bold;
