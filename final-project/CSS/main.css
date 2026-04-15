@@ -319,6 +319,20 @@ hr {
     padding-bottom: 15px;
 }
 
+footer {
+    background-color: #222;
+    color: #c78c06;
+    padding: 15px 15px;
+}
+
+footer p {
+    padding-top: 20px;
+}
+
+footer a {
+    color: #c78c06;
+    text-decoration: underline;
+}
 
 
 
