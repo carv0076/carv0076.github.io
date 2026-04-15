@@ -70,11 +70,6 @@ nav {
     width: 95%;
     height: 250px;
     margin: 10px auto;
-}
-
-.color-box {
-    background-color: #c78b07;
-    width: 95%;
     margin-top: 10px;
     padding: 20px;
     display: grid;
@@ -114,11 +109,37 @@ nav form input{
     font-size: 18px;
 }
 
-header h1 {
-    font-size: 4rem;
-    font-weight: bold;
-    color: white;
+header div{
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    padding: 20px;
 }
+
+header div h1 {
+    font-size: 5rem;
+    color: white;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+
+header div p {
+    color: white;
+    line-height: 1.5;
+}
+
+#home {
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+#home img {
+    width: 100%;
+    display: block;
+}
+
 
 h1 {
     font-size: 3rem;
