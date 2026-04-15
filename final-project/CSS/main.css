@@ -336,6 +336,48 @@ footer a {
         display:flex;
         flex-direction: row;
         align-items: center;
+        justify-content: center;
+        gap: 30px;
+        height: 200px;
     }
+
+    .color-box {
+        background-color: transparent;
+        border: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        height: 50px;
+        width: auto;
+        gap: 30px;
+        grid-template-rows: unset;
+    }
+
+    .color-box img {
+        align-self: center;
+        justify-self: unset;
+        height: 100px;
+        width: auto;
+        box-sizing: content-box;
+        padding: 10px;
+    }
+
+    .color-box a {
+        background-color: #c78c06;
+        padding: 15px 25px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 30px;
+        padding: 0;
+    }
+
 }
 
