@@ -163,8 +163,8 @@ header div a {
     padding: 15px;
 }
 
-#about-us > *{
-    padding-bottom: 30px;
+#about-us .about-text > *{
+    padding-bottom: 15px;
 }
 
 #about-us img {
@@ -249,7 +249,7 @@ header div a {
     border: 15px solid white;
 }
 
-.team div h2, .team div h3, .team div p {
+.team-info h2, .team-info h3, .team-info p {
     padding: 10px;
 }
 
@@ -330,5 +330,12 @@ footer a {
 }
 
 
+@media screen and (min-width:760px) {
 
+    nav {
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+    }
+}
 
