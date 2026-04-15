@@ -72,6 +72,30 @@ nav {
     margin: 10px auto;
 }
 
+.color-box {
+    background-color: #c78b07;
+    width: 95%;
+    margin-top: 10px;
+    padding: 20px;
+    display: grid;
+    grid-template-rows: 1fr auto; 
+    justify-items: center; 
+}
+
+.color-box img {
+    /* Keeps logo at the very top of its area */
+    align-self: start; 
+    justify-self: start;
+}
+
+.color-box a {
+    /* This automatically sits in the second row (the auto space) */
+    font-size: 20px;
+    color: #222222;
+    text-decoration: none;
+    padding-top: 10px; /* A little breathing room from the logo */
+}
+
 nav ul {
    display:flex;
    flex-direction: column;
