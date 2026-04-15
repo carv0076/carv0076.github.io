@@ -111,7 +111,7 @@ nav form input{
 
 header div{
     position: absolute;
-    top: 30%;
+    top: 10%;
     width: 100%;
     background-color: rgba(0,0,0,0.5);
     padding: 20px;
@@ -127,12 +127,23 @@ header div h1 {
 header div p {
     color: white;
     line-height: 1.5;
+    margin-bottom: 2rem;
+}
+
+header div a {
+    background-color: #c78b07;
+    font-style: bold;
+    font-size: 1.5rem;
+    display: inline-block;
+    padding: 30px 50px;
+    color: #222222;
 }
 
 #home {
     position: relative;
     max-width: 100%;
     margin: 0 auto;
+    padding-bottom: 15px;
 }
 
 #home img {
