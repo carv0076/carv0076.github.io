@@ -31,6 +31,7 @@ footer, header, hgroup, menu, nav, section {
 
 * {
     box-sizing: border-box;
+    overflow-x:hidden;
 }
 
 body {
@@ -76,16 +77,15 @@ h3 {
 
 nav {
     background-color: #222222;
-    padding: 10px 0;
 }
 
 .color-box {
     background-color: #c78c06;
-    width: 95%;
+    width: auto;
+    display: block;
     height: 250px;
-    margin: 10px auto;
-    margin-top: 10px;
-    padding: 20px;
+    margin: 15px;
+    padding: 20px 0px;
     display: grid;
     grid-template-rows: 1fr auto; 
     justify-items: center; 
@@ -162,6 +162,19 @@ header div a {
 #home img {
     width: 100%;
     display: block;
+}
+
+#about-us {
+    background-color: #ffe6ac ;
+      padding: 15px;
+}
+
+#about-us > * {
+    padding-bottom: 30px;
+}
+
+#about-us img {
+    width: 100%;
 }
 
 
