@@ -290,19 +290,33 @@ hr {
     font-size: 1.5rem;
 }
 
-.hours table {
+#hours table {
     width: 100%;
     margin-top: 15px;
 }
 
-.hours th, .hours td {
+#hours th, #hours td {
     border: 1px solid black;
     height: 50px;
     padding: 15px 15px;
 }
 
-.hours th{
+#hours th{
     background-color: #ffe6ac;
+}
+
+#location {
+    padding: 15px;
+}
+
+#location h2 {
+    padding-bottom: 15px;
+}
+
+#location iframe{
+    width: 100%;
+    height: 600px;
+    padding-bottom: 15px;
 }
 
 
