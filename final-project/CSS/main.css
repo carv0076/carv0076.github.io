@@ -425,6 +425,7 @@ footer a {
     #services {
         display: flex;
         flex-wrap: wrap;
+        align-items: stretch;
     }
 
     #services h1 {
@@ -433,6 +434,8 @@ footer a {
 
     #services article {
         flex: 1 1 calc(33.333% - 20px);
+        display: flex;
+        flex-direction: column;
     }
 
     #services article:nth-child(2),  #services article:nth-child(3) {
@@ -442,6 +445,7 @@ footer a {
     #services article a {
         display: block;
         text-align: center;
+        margin-top: auto;
     }
 }
 
