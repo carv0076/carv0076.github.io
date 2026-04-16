@@ -118,19 +118,25 @@ nav form input{
     font-size: 18px;
 }
 
-header div{
-   position: absolute;  /* allows it to sit on top of the banner img */
+header {
+    position: relative;
+}
+
+.banner-overlay{
+    position: absolute;  /* allows it to sit on top of the banner img */
     top: 10%;
     width: 100%;
     background-color: rgba(0,0,0,0.5);
     padding: 20px;
+    max-width: 800px;
+    word-wrap: break-word;
 }
 
 header div h1 {
-    font-size: 5rem;
+    font-size: 4rem;
     color: white;
     line-height: 1.5;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 header div p {
@@ -290,7 +296,7 @@ hr {
     margin-top: 15px;
 }
 
-.hours th, #hours td {
+.hours th, .hours td {
     border: 1px solid black;
     height: 50px;
     padding: 15px 15px;
@@ -379,5 +385,6 @@ footer a {
         padding: 0;
     }
 
+    
 }
 
