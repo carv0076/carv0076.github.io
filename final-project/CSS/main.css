@@ -54,6 +54,12 @@ table {
     box-sizing: border-box; /* border won't push elements outside their set width */
 }
 
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 a {
     text-decoration: none;
 }
