@@ -193,19 +193,19 @@ header div a {
     padding-bottom: 30px;
 }
 
-#services div {
+#services article {
     background-color: #ffe6ac;
     border-bottom: 15px solid white;
     border-right: 15px solid white;
     border-left: 15px solid white;
 }
 
-#services div h2, #services div p {
+#services article h2, #services article p {
     padding: 15px;
     padding-bottom: 15px;
 }
 
-#services div a{
+#services article a{
     background-color: #222222;
     font-size: 1.5rem;
     padding: 40px 50px;
