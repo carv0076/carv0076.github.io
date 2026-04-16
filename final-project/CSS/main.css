@@ -421,5 +421,23 @@ footer a {
     .about-text {
         width: 50%;
     }
+
+    #services {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    #services h1 {
+        width: 100%;
+    }
+
+    #services article {
+        flex: 1 1 calc(33.333% - 20px);
+    }
+
+    #services article:nth-child(2),  #services article:nth-child(3) {
+        flex: 1 1 calc(50% - 20px);
+    }
 }
 
