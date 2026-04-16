@@ -127,9 +127,10 @@ header {
     top: 10%;
     width: 100%;
     background-color: rgba(0,0,0,0.5);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
     padding: 20px;
-    max-width: 800px;
-    word-wrap: break-word;
 }
 
 header div h1 {
@@ -385,6 +386,19 @@ footer a {
         padding: 0;
     }
 
-    
+    .banner-overlay {
+        width: 85%;
+        max-width: 1400px;
+        height: 550px;
+    }
+
+    .banner-overlay h1 {
+        font-size: 6rem;
+    }
+
+    #home img {
+        max-height: 700px;
+        object-fit: cover;
+    }
 }
 
