@@ -425,7 +425,7 @@ footer a {
     #services {
         display: flex;
         flex-wrap: wrap;
-        align-items: stretch;
+        align-items: stretch; /* forces all the article boxes to be the same height */
     }
 
     #services h1 {
@@ -434,7 +434,7 @@ footer a {
 
     #services article {
         flex: 1 1 calc(33.333% - 20px);
-        display: flex;
+        display: flex; /* added here to target all the articles, and make every tag 100% width */
         flex-direction: column;
     }
 
@@ -445,7 +445,7 @@ footer a {
     #services article a {
         display: block;
         text-align: center;
-        margin-top: auto;
+        margin-top: auto; /* pushes the <a> the bottom no matter what */
     }
 }
 
