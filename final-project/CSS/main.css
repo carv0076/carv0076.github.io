@@ -394,12 +394,11 @@ footer a {
 
     .banner-overlay {
         width: 85%;
-        max-width: 1400px;
-        height: 550px;
+        height: 500px;
     }
 
     .banner-overlay h1 {
-        font-size: 6rem;
+        font-size: 5rem;
     }
 
     #home img {
