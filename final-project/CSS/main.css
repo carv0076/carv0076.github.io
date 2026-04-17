@@ -426,6 +426,8 @@ footer a {
         display: flex;
         flex-wrap: wrap;
         align-items: stretch; /* forces all the article boxes to be the same height */
+        padding-right: 70px;
+        padding-left: 70px;
     }
 
     #services h1 {
@@ -446,6 +448,42 @@ footer a {
         display: block;
         text-align: center;
         margin-top: auto; /* pushes the <a> the bottom no matter what */
+    }
+
+    .team {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+    .team h1 {
+        margin: 40px 15px 20px 0px;
+    }
+
+    .team article{
+        border: 15px solid white;
+    }
+
+    #john, #bob {
+        display: flex;
+        align-items: stretch;
+        padding-bottom: 0;
+        border: none;
+    }
+
+    #bob {
+        flex-direction: row-reverse;
+    }
+
+    .team article img {
+        width: 50%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+        padding-bottom: 0;
+    }
+
+    hr {
+        width: 95%;
     }
 }
 
