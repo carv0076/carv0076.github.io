@@ -57,7 +57,6 @@ table {
 .wrapper {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 15px;
 }
 
 a {
@@ -272,30 +271,38 @@ hr {
     height: 2px;
 }
 
-#contact > * {
+.contact-wrapper h1 {
     padding: 15px;
 }
 
-#contact textarea, #contact input {
+.message > *{
+    padding: 10px;
+}
+
+.message form textarea, .message form input {
     width: 100%;
     resize: none; /* so users can't resize the textarea */
     margin-bottom: 20px;
 }
 
-#contact label {
+.message form label {
     display: block;
     margin-bottom: 10px;
 }
 
-#contact textarea {
+.message form textarea {
     height: 150px;
 }
 
-#contact button {
+.message form button {
     background-color: #222222;
     color: #c78c06;
     border:none;
     font-size: 1.5rem;
+}
+
+.hours {
+    padding: 15px
 }
 
 .hours table {
@@ -317,14 +324,13 @@ hr {
     padding: 15px;
 }
 
-.team h2 {
+.location > * {
     padding-bottom: 15px;
 }
 
 .location iframe{
     width: 100%;
     height: 600px;
-    padding-bottom: 15px;
 }
 
 footer {
@@ -426,8 +432,7 @@ footer a {
         display: flex;
         flex-wrap: wrap;
         align-items: stretch; /* forces all the article boxes to be the same height */
-        padding-right: 70px;
-        padding-left: 70px;
+        padding: 0 70px;
     }
 
     #services h1 {
@@ -451,8 +456,7 @@ footer a {
     }
 
     .team {
-        padding-left: 70px;
-        padding-right: 70px;
+        padding: 0 70px;
     }
 
     .team h1 {
@@ -485,5 +489,48 @@ footer a {
     hr {
         width: 95%;
     }
+
+   .contact-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 70px;
+   }
+
+   .message > * {
+    padding-left: 0;
+   }
+
+   .message h2 {
+    padding-bottom: 15px;
+   }
+
+   .contact-wrapper h1 {
+    grid-column: 1 / -1;
+    padding-left: 0;
+   }
+
+   #contact {
+    grid-column: 1 / 2;
+   }
+
+   .location {
+    grid-column: 2 / 3;
+    padding-right: 0;
+   }
+
+   .location h2 {
+    padding-bottom: 15px;
+   }
+
+   .location iframe {
+    height: 400px;
+   }
+
+   .hours {
+    width: 200%;
+    grid-column: 1 / -1 ;
+    padding-left: 0;
+    padding-right: 0;
+   }
 }
 
