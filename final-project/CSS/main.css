@@ -275,7 +275,7 @@ hr {
 }
 
 .message > *{
-    padding: 10px;
+    padding: 15px;
 }
 
 .message form textarea, .message form input {
@@ -346,6 +346,10 @@ footer a {
     color: #c78c06;
     text-decoration: underline;
 }
+
+@media screen and (min-width: 640px) {
+}
+    
 
 
 @media screen and (min-width:760px) {
@@ -500,13 +504,23 @@ footer a {
     padding-left: 0;
    }
 
-   .message h2,   .location h2 {
+   .message h2, .location h2 {
     padding-bottom: 15px;
    }
+
+   .message form textarea {
+    height: 100px;
+}
+
+    .message form button {
+        margin-bottom: 50px;
+    }
 
    .contact-wrapper h1 {
     grid-column: 1 / 3; /* start and end location for each element within the grid */
     padding-left: 0;
+    padding-top: 55px;
+    padding-bottom: 45px;
    }
 
    #contact {
