@@ -91,8 +91,7 @@ nav {
 }
 
 .color-box img {
-    /* Keeps logo at the very top of its area */
-    align-self: start; 
+    align-self: start;  /* Keeps logo at the very top of its area */
     justify-self: start;
 }
 
@@ -352,6 +351,7 @@ footer a {
 @media screen and (min-width:760px) {
 
     nav {
+        /* switches nav from vertical to horizontal */
         display:flex;
         flex-direction: row;
         align-items: center;
@@ -361,23 +361,23 @@ footer a {
     }
 
     .color-box {
-        background-color: transparent;
+        background-color: transparent; 
         border: none;
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-between; /* evenly spaces li */
         height: 50px;
         width: auto;
         gap: 30px;
-        grid-template-rows: unset;
+        grid-template-rows: unset; /* resets mobile layout from grid to flex */
     }
 
     .color-box img {
         align-self: center;
         height: 100px;
         width: auto;
-        box-sizing: content-box;
+        box-sizing: content-box; /* padding is outside the set height, this makes sure the logo doesn't shrink */
         padding: 10px;
     }
 
@@ -386,7 +386,7 @@ footer a {
         padding: 15px 25px;
         height: 100%;
         display: flex;
-        align-items: center;
+        align-items: center; /* centers text inside the <a> */
     }
 
     nav ul {
@@ -408,7 +408,7 @@ footer a {
 
     #home img {
         max-height: 700px;
-        object-fit: cover;
+        object-fit: cover; /* crops img instead of stretching */
     }
 
     #about-us {
@@ -500,7 +500,7 @@ footer a {
     padding-left: 0;
    }
 
-   .message h2 {
+   .message h2,   .location h2 {
     padding-bottom: 15px;
    }
 
@@ -516,10 +516,6 @@ footer a {
    .location {
     grid-column: 2 / 3;
     padding-right: 0;
-   }
-
-   .location h2 {
-    padding-bottom: 15px;
    }
 
    .location iframe {
