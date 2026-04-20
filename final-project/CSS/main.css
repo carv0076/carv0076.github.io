@@ -469,7 +469,7 @@ footer a {
 
     #john, #bob {
         display: flex;
-         align-items: stretch; /* makes it so they're the same height */
+        align-items: stretch; /* makes it so they're the same height */
         padding-bottom: 0;
         border: none;
     }
