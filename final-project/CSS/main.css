@@ -174,12 +174,17 @@ header div a {
     padding: 15px;
 }
 
-#about-us .about-text > *{
+#about-us .about-text p{
     padding-bottom: 15px;
+}
+
+#about-us .about-text h1 {
+    padding-bottom: 30px;
 }
 
 #about-us img {
     width: 100%;
+    padding-bottom: 30px;
 }
 
 #services h1 {
